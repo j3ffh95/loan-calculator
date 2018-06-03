@@ -2,18 +2,18 @@
 
 [https:](#)
 
-A task list app created as part of the "Modern JavaScript from the Begining" Udemy course by the amazing Brad Traversy.\
+A Loan Calculator app app created as part of the "Modern JavaScript from the Begining" Udemy course by the amazing Brad Traversy.\
 [https://www.udemy.com/modern-javascript-from-the-beginning/learn/v4/overview](https://www.udemy.com/modern-javascript-from-the-beginning/learn/v4/overview)
 
-The Task List project uses the Materialize css library.
+The Loan Calculator app is styled using Bootstrap.
 
-This task list can be used [here.](#)
+This loan calculator can be used [here.](#)
 
 ## Usage
 
-- Type a task in the New Task section.
-- Click ADD TASK to add the task to the Tasks list.
-- Tasks are kept in the browsers local storage.
-- Type searh words in the Fitler Task field to search through stored tasks.
-- Click the Bin and click Ok to delete tasks.
-- Click CLEAR TASKS to clear all stored tasks. (this can not be undone)
+- Enter your loan amount.
+- Enter the loan interest.
+- Enter the years to repay the loan.
+- Click Calculate and after two seconds the calculator will return the results.
+- If for any reason the result can not be calculated an error message will be displayed.
+- This loan calculator is for code learning and entertainement only and should not be used for financial advice.

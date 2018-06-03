@@ -8,7 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <!-- CSS -->
+    <style>
+        #loading, #results {
+            display: none;
+        }
+    </style>
+
+    <title>Loan Calculator</title>
   </head>
   <body class="bg-dark">
     <div class="container">
@@ -41,9 +48,9 @@
                         </div>
                     </form>
                     <!-- LOADER -->
-                    <!-- <div id="loading">
+                    <div id="loading">
                         <img src="img/loading.gif" alt="">
-                    </div> -->
+                    </div>
                     <!-- RESULTS -->
                     <div id="results" class="pt-4">
                         <h5>Results</h5>
